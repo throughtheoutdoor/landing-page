@@ -1,0 +1,37 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Roboto;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+.header, .hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-image{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight:bolder;
+    padding: 9px;    
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    color:#E5E7EB;    
+}
+
+.links div{
+    padding: 20px;    
+    font-size: 18px;
+}
+
