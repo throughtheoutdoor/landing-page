@@ -24,7 +24,7 @@ body{
     padding: 9px;    
 }
 
-.links{
+.links, .hero-secondary-text, .hero-image{
     display: flex;
     justify-content: space-around;
     color:#E5E7EB;    
@@ -34,4 +34,24 @@ body{
     padding: 20px;    
     font-size: 18px;
 }
+.hero-button{
+    background-color: #3882F6;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    text-align: center;
+    
+}
 
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f0faf8;
+}
+
+.hero-image{
+    background-color: grey;
+    padding: 100px;
+}
