@@ -1,88 +1,38 @@
-*   {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
     /* border: 1px solid red; */
-    font-family: Roboto;
-    
+    font-family: Roboto;    
 }
 
 body{
-    width: 80%;
-    margin: auto;
     margin-top: 25px;
     background-color: #202020;
-    
 }
 
-.header, .hero {
+.header, .hero{
     display: flex;
+    width: 80%;
+    height: 100px;
     background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
     
-    
-
 }
 
-.header-logo {
+.header-logo{
     color: #F9FAF8;
     font-size: 24px;
-    font-weight:bolder;
-    width: 50%;
-    padding: 15px 160px;
-    flex: 1;    
 }
 
-.links {
+.header-links{
     display: flex;
+    gap: 20px;
+}
+
+.header-links div{
     color: #E5E7EB;
-    font-size: 18px;
-    justify-content: center;
-    gap: 30px;
-    flex: 2;
-    
-}
-.links div{
-    align-content: center;
-}
-
-/* Hero Section */
-
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid pink;
-    flex: 1;
-}
-.hero-main-text{
-    padding: 100px 160px 10px;
-    font-weight: 900;
-    font-size: 48px;
-    color: #F9FAF8;
-    border: 1px solid pink;
-    
-}
-
-.hero-secondary-text{
-    padding: 10px 20px 40px 160px;
-    font-size: 18px;
-    color: #E5E7EB;
-    border: 1px solid pink;
-
-}
-
-
-
-
-
-
-.hero-button{
-    background-color: #3882F6;
-    padding: 10px;
-    width: 130px;
-    color: white;
-    font-weight: 700;
-    border-radius: 10px;
-    text-align: center;
-    
 }
 
