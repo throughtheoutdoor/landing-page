@@ -37,8 +37,6 @@ body{
     margin: auto;    
 }
 
-
-
 .header-links{
     display: flex;
     gap: 20px;
@@ -47,6 +45,13 @@ body{
 .header-links div{
     color: #E5E7EB;
 }
+
+.rando-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 
 /* HERO SECTION */
 /* .header{
@@ -65,9 +70,11 @@ body{
     background-color: #1F2937;
     max-width: 80%;
     height: 300px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: auto;
+    gap: 135px;
+    
 }
 
 
@@ -91,3 +98,45 @@ body{
     border-radius: 10px; 
 }
 
+.rando{
+    display: flex;
+    min-height: 400px;
+    width: 80%;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: auto;
+    gap: 35px;
+    background-color: white;
+}
+
+.rando-title{
+
+    padding: 35px;
+    
+
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
