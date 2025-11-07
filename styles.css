@@ -2,30 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    /* border: 1px solid red; */
+    border: 1px solid red;
     font-family: Roboto;    
 }
 
-body{
-    margin-top: 25px;
-    background-color: #202020;
-}
-
-.header, .hero{
-    display: flex;
-    width: 80%;
-    height: 100px;
-    background-color: #1F2937;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    
+.hero-secondary-text{
+    color: #E5E7BB;
+    font-size: 18px;  
 }
 
 .header-logo{
     color: #F9FAF8;
     font-size: 24px;
 }
+
+.hero-main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+} 
+
+body{
+    margin-top: 25px;
+    background-color: #202020;
+}
+
+.header{
+    display: flex;
+    max-width: 80%;
+    height: 100px;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;    
+}
+
+
 
 .header-links{
     display: flex;
@@ -34,5 +46,48 @@ body{
 
 .header-links div{
     color: #E5E7EB;
+}
+
+/* HERO SECTION */
+/* .header{
+    display: flex;
+    max-width: 80%;
+    height: 100px;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;    
+} */
+
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    max-width: 80%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+
+.hero-text{
+    max-width: 30%;
+}
+
+.hero-image{
+    background-color: grey;
+    padding: 100px;
+
+}
+
+.hero-button{
+    text-align: center;
+    background-color: #3882F6;
+    color:#E5E7BB;
+    font-weight: 700;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px; 
 }
 
